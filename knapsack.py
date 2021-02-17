@@ -2,12 +2,9 @@
 Items: [ { "weight": 5, "value": 10 }, { "weight": 4, "value": 40 }, { "weight": 6, "value": 30 }, { "weight": 4, "value": 50 } ]
 Knapsack Limit: 10
 """
-# items = [ { "weight": 5, "value": 10 }, { "weight": 4, "value": 40 }, { "weight": 6, "value": 30 }, { "weight": 4, "value": 50 } ]
-# limit = 10
 import json
 
 def bountiful_loot(limit, items):
-    print(type(items))
     n = len(items)
     table = [[0 for x in range(n+1)] for y in range(limit+1)]
 
@@ -18,11 +15,6 @@ def bountiful_loot(limit, items):
             else:
                 table[j][i] = table[j][i+1]
     return table[limit][0]
-
-# bountiful_loot(limit, items)
-# # s = bountiful_loot(limit, items)
-# # print(s)
-
 
 
 if __name__ == '__main__':
