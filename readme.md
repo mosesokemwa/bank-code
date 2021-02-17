@@ -4,6 +4,15 @@ To run
 1. Knapsack code
 
     ```python knapsack.py```
+    
+    Input
+    ```
+    List of Knapsack weights: [{ "weight": 5, "value": 10 }, { "weight": 4, "value": 40 }, { "weight": 6, "value": 30 }, { "weight": 4, "value": 50 }]
+    Knapsack Limit: 10
+    ```
+    
+    Output
+    ```Knapsack value: 90```
 
 
 2. Darts code
