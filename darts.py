@@ -35,6 +35,6 @@ def score(x: float, y: float):
 
 
 if __name__ == '__main__':
-    x, y = input('Provide the cartesian coordinates x and y: ').split()
+    x, y = input('score ').split(',')
     s = score(x, y)
-    print(f'Points earned: {s}')
+    print(f'Player earns: {s} points')
