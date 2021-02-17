@@ -3,7 +3,7 @@
 To run
 1. Knapsack code
 
-    ```python knapsack.py```
+    ```python3 knapsack.py```
     
     Input
     ```
@@ -17,7 +17,7 @@ To run
 
 2. Darts code
 
-    ``python darts.py``
+    ``python3 darts.py``
 
     Input is 2 numbers separated by comas
 
